@@ -1,0 +1,39 @@
+.offer-maker {
+  width: 100%;
+  background-color: var(--secondary-color__dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-maker__title {
+  color: var(--primary-color__violet);
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.offer-maker__form-title {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  padding-bottom: 15px;
+}
+
+.offer-maker__form-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.offer-maker__form-sub-container {
+  padding: 5%;
+}
+
+.offer-maker__form-sub-container button{
+  margin-top: 15px;
+  width: 100%;
+}

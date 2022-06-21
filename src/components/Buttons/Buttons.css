@@ -1,0 +1,125 @@
+/*BUTTON PRIMARY*/
+
+.button-primary {
+  min-height: 35px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: var(--primary-color__violet);
+  border: 2px solid var(--primary-color__violet);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.button-primary:hover {
+  background-color: var(--selection-color__light-violet);
+  border-color: var(--selection-color__light-violet);
+}
+
+/*BUTTON SECONDARY*/
+
+.button-secondary {
+  min-height: 35px;
+  color: var(--primary-color__violet);
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: white;
+  border: 2px solid var(--primary-color__violet);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.button-secondary:hover {
+  color: var(--selection-color__light-violet);
+  border-color: var(--selection-color__light-violet);
+}
+
+/*BUTTON TERTIARY*/
+
+.button-tertiary {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color__violet);
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1.5px solid var(--primary-color__violet);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.button-tertiary:hover {
+  color: var(--selection-color__light-violet);
+  border-color: var(--selection-color__light-violet);
+}
+
+/*BUTTON FILTER*/
+
+.button-filter {
+  height: 30px;
+  width: fit-content;
+  margin: 6px 0;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: 1.5px solid var(--primary-color__violet);
+  border-radius: 15px;
+  cursor: pointer;
+  --text-color: var(--primary-color__violet);
+}
+
+.button-filter:hover {
+  background-color: var(--ultra-light-gray);
+}
+
+.button-filter-active{
+  --text-color: white;
+  background-color: var(--primary-color__violet);
+}
+
+.button-filter p {
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.button-filter img {
+  margin-left: 8px;
+  height: 8px;
+}
+
+/*BUTTON FILTER TO CLOSE*/
+
+.button-filter-to-close {
+  height: 30px;
+  width: fit-content;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: 1.5px solid var(--primary-color__violet);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button-filter-to-close:hover{
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.button-filter-to-close p {
+  color: var(--primary-color__violet);
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.button-filter-to-close img {
+  margin-left: 8px;
+  height: 8px;
+}

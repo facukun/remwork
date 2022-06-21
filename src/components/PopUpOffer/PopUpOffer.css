@@ -1,0 +1,275 @@
+.offer-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  max-width: 800px;
+}
+
+.offer-head {
+  display: flex;
+  padding: 5%;
+  align-items: center;
+}
+
+.offer-head__company-logo {
+  height: 55px;
+  clip-path: circle();
+}
+
+.offer-head__container {
+  display: flex;
+  padding-left: 12px;
+  flex-direction: column;
+}
+
+.offer-head__container__company {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  margin-bottom: 5px;
+}
+
+.offer-head__container__company p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.offer-head__container__company__sub-container__verified {
+  padding-left: 5px;
+  height: 16px;
+}
+
+.offer-head__container__company__sub-container__not-verified {
+  display: none;
+}
+
+.offer-head__container__company__sub-container__verified-text {
+  font-size: 1.2rem !important;
+  display: none !important;
+}
+
+.offer-head__container__company__sub-container__not-verified-text {
+  display: none !important;
+}
+
+.offer-head__container__company__sub-container__highlighted {
+  padding-left: 5px;
+  height: 15px;
+  filter: invert(53%) sepia(96%) saturate(3953%) hue-rotate(234deg) brightness(102%) contrast(101%);
+}
+
+.offer-head__container__company__sub-container__not-highlighted {
+  display: none;
+}
+
+.offer-head__container__company__sub-container__highlighted-text {
+  font-size: 1.2rem !important;
+  display: none !important;
+}
+
+.offer-head__container__company__sub-container__not-highlighted-text {
+  display: none !important;
+}
+
+
+.offer-head__buttons-container {
+  display: none;
+}
+
+.offer-body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.offer-body__scroll-container {
+  overflow: auto;
+  box-shadow: inset 0px -11px 20px -11px rgba(0, 0, 0, 0.15);
+  padding: 0 5%;
+}
+
+.offer-body__scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.offer-body__scroll-container p {
+  padding: 12px 10px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.offer-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-body__info__details {
+  display: flex;
+  width: 100%;
+  padding: 0 5%;
+  padding-top: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-body__info__details__location-icon {
+  height: 20px;
+  padding-bottom: 2px;
+}
+
+.offer-body__info__details p {
+  padding: 0 5px;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.offer-body__info__details__italic {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--primary-color__violet);
+  min-width: fit-content;
+  padding-right: 0 !important;
+}
+
+.offer-body__info__details__eye-icon {
+  height: 15px;
+  padding-left: 5px;
+}
+
+.offer-body__info__salary-range {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  flex-wrap: wrap;
+  padding: 0 5%;
+  padding-top: 6px;
+}
+
+.offer-body__info__buttons-container {
+  display: flex;
+  padding: 5%;
+  padding-top: 16px;
+}
+
+.offer-body__info__buttons-container button {
+  width: 100%;
+}
+
+@media (min-width: 560px) {
+
+  .offer-container {
+    flex-direction: row-reverse;
+  }
+
+  .offer-head {
+    padding: 45px 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    max-width: 250px;
+    overflow: hidden;
+  }
+
+  .offer-head__company-logo {
+    height: 120px;
+  }
+
+  .offer-head__container {
+    flex-direction: column;
+    width: 100%;
+    padding: 12px 0;
+    align-items: center;
+  }
+
+  .offer-head__container__company {
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .offer-head__container__company p {
+    width: 100%;
+    text-align: center;
+    display: unset;
+    word-break: normal;
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+  }
+
+  .offer-head__container__company__sub-container {
+    display: flex;
+    padding: 2.5px 0;
+  }
+
+  .offer-head__container__company__sub-container__verified {
+    padding: 0;
+  }
+
+  .offer-head__container__company__sub-container__verified-text {
+    display: flex !important;
+    padding: 0 5px !important;
+
+  }
+
+  .offer-head__container__company__sub-container__highlighted {
+    padding: 0;
+  }
+
+  .offer-head__container__company__sub-container__highlighted-text {
+    display: flex !important;
+    padding: 0 5px !important;
+
+  }
+
+  .offer-head__buttons-container {
+    display: flex;
+    margin-top: auto;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .offer-head__buttons-container button {
+    width: 100%;
+  }
+
+  .offer-body {
+    width: fit-content;
+    flex-direction: column-reverse;
+    padding-top: 14px;
+    padding-bottom: 30px;
+    padding-left: 14px;
+  }
+
+  .offer-body__scroll-container {
+    box-shadow: none;
+    margin-top: 16px;
+  }
+
+  .offer-body__scroll-container::-webkit-scrollbar {
+    display: unset;
+  }
+
+  .offer-body__info__details {
+    justify-content: start;
+    align-items: center;
+  }
+
+  .offer-body__info__salary-range {
+    text-align: left;
+  }
+
+  .offer-body__info__buttons-container {
+    display: none;
+  }
+
+}

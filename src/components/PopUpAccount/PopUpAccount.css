@@ -1,0 +1,76 @@
+.account-container {
+    width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    max-width: 800px;
+}
+
+.account__forgot-password {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: end;
+    color: var(--primary-color__violet);
+    font-style: italic;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.account__forgot-password:hover {
+    color: var(--selection-color__light-violet);
+}
+
+.account__buttons-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.account-image {
+    height: 290px;
+    display: none;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+.account__sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.account__sub-container p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.account__sub-container-icon {
+    height: 100px;
+    margin-top: 30px;
+}
+
+.account__sub-container-aclaration {
+    color: var(--dark-gray);
+}
+
+.e-mail-confirmed-text {
+    font-size: 1.7rem !important;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 700px) {
+    .account-image {
+        display: unset;
+        margin-left: auto;
+    }
+
+    .account__sub-container {
+        max-width: 320px;
+        margin: auto;
+    }
+}
