@@ -33,7 +33,7 @@ const PageProfile = (props) => {
       </div>
 
       <div className='profile-offers'>
-        <p className='profile-offer__title'>Nuestras ofertas</p>
+        <p className='profile-offers__title'>Nuestras ofertas</p>
         <ButtonPrimary>+ Publicar nueva oferta</ButtonPrimary>
         <OfferCard
           highlighted={true}

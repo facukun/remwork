@@ -70,13 +70,9 @@
   padding: 30px 5%;
 }
 
-.profile-offer__title {
+.profile-offers__title {
   font-size: 1.8rem;
   font-weight: 400;
   color: white;
   margin-bottom: 15PX;
-}
-
-.profile-offers button {
-  margin-bottom: 20px;
 }
